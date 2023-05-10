@@ -39,4 +39,13 @@ char *opcode;
 void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+/*prototypes of the functons*/
+void push(src);
+void pall(void);
+void nop(void);
+void pint(void);
+void pop(void);
+void add(void);
+void swap(void);
+
 #endif
